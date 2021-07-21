@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    background-image: url("images/23312_lores.jpg");
+    font-family: "Poppins", sans-serif;
+}
+
+ul{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #111;
+    font-size: 0.87rem;
+    text-decoration: none;
+    padding: 1rem;
+    letter-spacing: 1px;
+} 
+ ul li a:hover{
+   border-bottom:3px solid #111;
+ }       
+ .header{
+   padding:20px;
+   height:100vh;
+   background:url("http://i1.tribune.com.pk/wp-content/uploads/2013/07/576061-Bhaag-1373636669.jpg")no-repeat center;
+   position:relative;
+   background-size:cover;
+ }
+ .flex1{
+   display:flex;
+ }
+ h1
+	{
+			margin: 0;
+			font-weight: 900;
+			font-size: 5rem;
+			text-align: center;
+			color: #111;
+			margin-bottom: 60px;
+            padding-bottom: 40px;
+            text-transform: uppercase;
+			
+	}
+    h2
+	{
+			margin: 0;
+			font-weight: 900;
+			font-size: 3rem;
+			text-align: center;
+			color: #494947;
+			margin-bottom: 60px;
+            padding: 20px 3px 10px 3px;
+            text-transform: uppercase;
+            text-decoration-line: underline;
+	}
+    h3
+	{
+			margin: 0;
+			font-weight: 900;
+			font-size: 2rem;
+			text-align: left;
+			color: #fff7f8;
+			margin-bottom: 60px;
+            padding: 20px 3px 10px 3px;
+            text-transform: uppercase;
+             
+	}
+    .content 
+	{
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		text-align: center;
+	}
+    .flex1
+    {
+        display: flex;
+	    color: white;
+	    padding: 100px 150px 150px 100px;
+	    position: center;
+	    background: linear-gradient(to bottom, #ffe0b5, #8a6552);
+    }
+    p
+	{
+		font-weight: 300%;
+		font-family: serif;
+		font-size: 120%;
+		text-align: center;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+    .flex2{
+      display: flex;
+	  color: white;
+	  padding: 100px 150px 150px 100px;
+	  position: center;
+	  background: linear-gradient(to bottom, #fff7f8, #8c5e58, #8a6552);
+    }
+    .flex{
+        background:url("https://wallpaperaccess.com/full/1986587.jpg")no-repeat center;
+        display: flex;
+	    color: white;
+	    position: center;
+        position:center;
+		padding-left:3%;
+		padding-right: 3%;
+        
+        
+    }
+	.flex--vertical{
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-left: 3%;
+		padding-right: 3%;
+
+	}
+    .flex h2{
+        margin: 0;
+			font-weight: 900;
+			font-size: 3rem;
+			text-align: center;
+			color: #eacdc2;
+			margin-bottom: 60px;
+            padding: 20px 3px 10px 3px;
+            text-transform: uppercase;
+            text-decoration-line: underline;
+    }
+    .flex3{
+        
+	    color: white;
+	    position: center;
+	    margin-right: 10px;
+	    background: linear-gradient(to bottom, #774c60, #eacdc2, #b75d69);
+    }
+    
+
+      
